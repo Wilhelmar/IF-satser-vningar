@@ -94,7 +94,7 @@ namespace if_satser
             {
                 Console.WriteLine("Inget av talen är större än det andra!" + " " + tal1 + " " + "=" + " " + tal2);
             }
-       */
+      
 
             //Övning 4     
 
@@ -115,7 +115,8 @@ namespace if_satser
                 Console.WriteLine("Talet är inte delbart med 7! Resten blir" + " " + tal%7 + " " + "!");
             }
 
-            
+         */
+                   
 
 
           
