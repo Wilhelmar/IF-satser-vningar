@@ -96,7 +96,26 @@ namespace if_satser
             }
        */
 
-            //Övning 4
+            //Övning 4     
+
+            int a;
+            a = 0;
+            Console.WriteLine("Nu ska vi undersöka olika tals delbarhet med 7!");
+
+            Console.Write("Mata in ett tal: ");
+            int tal = int.Parse(Console.ReadLine());
+
+            if (tal%7 == a)
+            {
+                Console.WriteLine("Talet är delabart med 7!");
+            }
+
+            else
+            {
+                Console.WriteLine("Talet är inte delbart med 7! Resten blir" + " " + tal%7 + " " + "!");
+            }
+
+            
 
 
           
