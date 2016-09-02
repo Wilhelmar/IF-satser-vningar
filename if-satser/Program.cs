@@ -27,7 +27,7 @@ namespace if_satser
                         {
                             Console.WriteLine("Lagligt däck!");
                         }
-                        */
+                       
 
             //Övning 2
             int a, b, c, d, e, f, g, h;
@@ -71,8 +71,33 @@ namespace if_satser
                 Console.WriteLine("Oglitig ålder angiven!");
             }
             
-        
       
+
+            //Övning 3
+
+            Console.Write("Mata in ett tal:");
+            decimal tal1 = decimal.Parse(Console.ReadLine());
+            Console.Write("Mata in ett tal:");
+            decimal tal2 = decimal.Parse(Console.ReadLine());
+
+            if (tal1 > tal2)
+            {
+                Console.WriteLine(tal1 + " " + "är större än" + " " + tal2);
+            }
+
+            else if (tal1 < tal2)
+            {
+                Console.WriteLine(tal2 + " " + "är större än" + " " + tal1);
+            }
+
+            else
+            {
+                Console.WriteLine("Inget av talen är större än det andra!" + " " + tal1 + " " + "=" + " " + tal2);
+            }
+       */
+
+            //Övning 4
+
 
           
         }
